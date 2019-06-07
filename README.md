@@ -3,7 +3,7 @@
 # _*6-7-2019*_
 
 ## _Overview_
-#### _This is a project that I made for my programming class. I utilized HTML, CSS, and JavaScript to create a  multiple-choice questionnaire that suggests which programming language one should learn. _
+### _This is a project that I made for my programming class. I utilized HTML, CSS, and JavaScript to create a  multiple-choice questionnaire that suggests which programming language one should learn._
 
 ### _By Joshua Horgen_
 
