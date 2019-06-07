@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  console.log("jquery is working")
   $("#program").submit(function(event) {
     event.preventDefault();
     var A = parseInt($("#A").val());
@@ -9,13 +10,16 @@ $(document).ready(function(){
     console.log("hi");
 
     function result() {
-      if (operator === "A") {
+      if (operator = "male") {
+        console.log("selected A")
         return ("Python")
-      };
-    };
+      } else {
+        return ("nada")
+      }
+    }
 
-
-
-
-    $("#output").text(result);
+  $("#output").text(result);
     console.log("here");
+
+})
+});
