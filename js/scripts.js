@@ -22,14 +22,14 @@ $(document).ready(function(){
     function result() {
       if (operator = ) {
         console.log("selected A")
-        return ("Pytho")
+        return ("Python")
       } else {
         return ("nada")
 
-}
-}
+      }
+    }
 
-  $("#output").text(result);
+    $("#output").text(result);
     console.log("here");
 
   })
