@@ -21,7 +21,7 @@
 ### _Joshua.horgen@gmail.com_
 
 ## _Technologies Used_
-### _Written in Atom.
+### _Written in Atom_
 ### _HTML_
 ### _CSS with Bootstrap_
 ### _JavaScript with jQuery 3.4.1_
