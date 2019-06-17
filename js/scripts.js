@@ -121,9 +121,9 @@ $(document).ready(function() {
       $("#swift").show();
       $("#program").hide();
 
-    } else
-      $("#all").show();
-      $("#program").hide();
+     } 
+      // $("#all").show();
+      // $("#program").hide();
 
 
 
