@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
-  <script src="js/scripts.js" type="text/javascript"></script>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet"
-
 </head>
+
 <body>
   <div class="jumbotron">
     <h1>Programming language questionnaire</h1>
@@ -16,44 +16,47 @@
     </div>
     <div class="container">
       <form id="program">
-          <h3>Choose your favorite device!</h3>
-          <input id="input-radio" type="radio" name="operator-one" value="A"> Mac<br> <!-- JS -->
-          <input id="input-radio" type="radio" name="operator-one" value="B"> PC<br> <!-- C++ -->
-          <input id="input-radio" type="radio" name="operator-one" value="C"> Mobile<br> <!-- Swift -->
-          <br>
+        <h3>Choose your favorite device!</h3>
+        <input id="input" type="checkbox" name="operator" value="A"> Mac<br> <!-- JS -->
+        <input id="input" type="checkbox" name="operator" value="B"> PC<br> <!-- C++ -->
+        <input id="input" type="checkbox" name="operator" value="C"> Mobile<br> <!-- Swift -->
+        <br>
 
-          <h3>How will you utilize your programming skills?</h3>
-          <input id="input-radio" type="radio" name="operator-two" value="D"> Website design<br> <!-- JS -->
-          <input id="input-radio" type="radio" name="operator-two" value="E"> App development<br> <!-- Swift -->
-          <input id="input-radio" type="radio" name="operator-two" value="F"> Game development <!-- C++ -->
+        <h3>How will you utilize your programming skills?</h3>
+        <input id="input" type="checkbox" name="operator" value="D"> Website design<br> <!-- JS -->
+        <input id="input" type="checkbox" name="operator" value="E"> App development<br> <!-- Swift -->
+        <input id="input" type="checkbox" name="operator" value="F"> Game development <!-- C++ -->
 
         <br>
 
-          <h3>How popular should the language be?</h3>
-          <input id="input-radio" type="radio" name="operator-three" value="D"> Very popular<br> <!-- JS -->
-          <input id="input-radio" type="radio" name="operator-three" value="E"> Somewhat popular<br> <!-- Swift -->
-          <input id="input-radio" type="radio" name="operator-three" value="F"> Niche <!-- C++ -->
+        <h3>How popular should the language be?</h3>
+        <input id="input" type="checkbox" name="operator" value="G"> Very popular<br> <!-- JS -->
+        <input id="input" type="checkbox" name="operator" value="H"> Somewhat popular<br> <!-- Swift -->
+        <input id="input" type="checkbox" name="operator" value="I"> Niche <!-- C++ -->
         <br>
-          <h3>Apple, Microsoft, or Linux?</h3>
-          <input id="input-radio" type="radio" name="operator-four" value="G"> Apple<br> <!-- Swift -->
-          <input id="input-radio" type="radio" name="operator-four" value="H"> Microsoft<br> <!-- C++ -->
-          <input id="input-radio" type="radio" name="operator-four" value="I"> Linux <!-- JS -->
+        <h3>Apple, Microsoft, or Linux?</h3>
+        <input id="input" type="checkbox" name="operator" value="J"> Apple<br> <!-- Swift -->
+        <input id="input" type="checkbox" name="operator" value="K"> Microsoft<br> <!-- C++ -->
+        <input id="input" type="checkbox" name="operator" value="L"> Linux <!-- JS -->
 
         <br>
 
-          <h3>What is your ideal employment scenario?</h3>
-          <input id="input-radio" type="radio" name="operator-five" value="J"> Startup<br> <!--Swift -->
-          <input id="input-radio" type="radio" name="operator-five" value="K"> Corporation<br> <!-- C++ -->
-          <input id="input-radio" type="radio" name="operator-five" value="L"> Freelance or Self-employment <!-- JS -->
+        <h3>What is your ideal employment scenario?</h3>
+        <input id="input" type="checkbox" name="operator" value="M"> Startup<br> <!--Swift -->
+        <input id="input" type="checkbox" name="operator" value="N"> Corporation<br> <!-- C++ -->
+        <input id="input" type="checkbox" name="operator" value="O"> Freelance or Self-employment <!-- JS -->
+        <br>
+        <button id="btn1" type="submit" class="btn">Submit!</button>
+      </form>
 
-      <button id="btn1" type="submit" class="btn">Submit!</button>
-    </form>
+      <h3 id="javaScript">Javascript</h3>
+      <h3 id="cPlus">C++</h3>
+      <h3 id="swift">Swift</h3>
 
-        <h3 id="javaScript">Javascript</h3>
-        <h3 id="cPlus">C++</h3>
-        <h3 id="swift">Swift</h3>
+
+      <h3 id="all">Javascript, C++ or Swift!</h3>
     </div>
 
-    </div>
-  </body>
-  </html>
+
+</body>
+</html>

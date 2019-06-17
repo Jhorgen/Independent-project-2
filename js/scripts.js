@@ -1,36 +1,141 @@
-$(document).ready(function(){
+$(document).ready(function() {
   console.log("jquery is working")
   $("#program").submit(function(event) {
     event.preventDefault();
 
-    var A = parseInt($("#test").val());
-    var B = parseInt($("#test").val());
-    var C = parseInt($("#test").val());
-    var D = parseInt($("#test").val());
-    var E = parseInt($("#test").val());
-    var F = parseInt($("#test").val());
-    var G = parseInt($("#G").val());
-    var H = parseInt($("#H").val());
-    var I = parseInt($("#I").val());
-    var J = parseInt($("#J").val());
-    var K = parseInt($("#K").val());
-    var L = parseInt($("#L").val());
-    var operator = $("input:checkbox[name=operator]:checked").val();
-    // var result;
-    console.log("hi");
+    var array = [];
+    $("input:checkbox[name=operator]:checked").each(function(){
+    console.log($(this).val());
+    var inputarray = $(this).val();
+    array.push(inputarray);
 
-    function result() {
-      if (operator = ) {
-        console.log("selected A")
-        return ("Python")
-      } else {
-        return ("nada")
+    if (array.includes("A") && array.includes("D") && array.includes("G") && array.includes("L") && array.includes("O")) {
+      $("#javaScript").show();
+      $("#program").hide();
 
-      }
-    }
+    } else if (array.includes("B") && array.includes("F") && array.includes("I") && array.includes("K") && array.includes("N")) {
+      $("#cPlus").show();
+      $("#program").hide();
 
-    $("#output").text(result);
-    console.log("here");
 
-  })
+    } else if (array.includes("C") && array.includes("E") && array.includes("H") && array.includes("J") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("F") && array.includes("H") && array.includes("J") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("E") && array.includes("I") && array.includes("L") && array.includes("n")) {
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("D") && array.includes("G") && array.includes("L") && array.includes("O")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("D") && array.includes("H") && array.includes("J") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("C") && array.includes("D") && array.includes("G") && array.includes("K") && array.includes("O")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("C") && array.includes("F") && array.includes("G") && array.includes("K") && array.includes("M")) {
+      $("#swift").show();
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("E") && array.includes("I") && array.includes("J") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("C") && array.includes("E") && array.includes("G") && array.includes("J") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("F") && array.includes("G") && array.includes("J") && array.includes("O")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("D") && array.includes("H") && array.includes("K") && array.includes("N")) {
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("D") && array.includes("I") && array.includes("J") && array.includes("N")) {
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("C") && array.includes("D") && array.includes("G") && array.includes("K") && array.includes("M")) {
+      $("#swift").show();
+      $("#javaScript").show();
+
+    } else if (array.includes("A") && array.includes("F") && array.includes("H") && array.includes("K") && array.includes("N")) {
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("E") && array.includes("H") && array.includes("K") && array.includes("N")) {
+      $("#cPlus").show();
+      $("#program").hide();
+      $("all").hide();
+
+    } else if (array.includes("B") && array.includes("F") && array.includes("G") && array.includes("K") && array.includes("M")) {
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("E") && array.includes("I") && array.includes("J ") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("C") && array.includes("D") && array.includes("G") && array.includes("L") && array.includes("M")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("D") && array.includes("I") && array.includes("J") && array.includes("N")) {
+      $("#javaScript").show();
+      $("#cPlus").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("F") && array.includes("G") && array.includes("J") && array.includes("O")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("F") && array.includes("G") && array.includes("K") && array.includes("O")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("D") && array.includes("H") && array.includes("L") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("D") && array.includes("G") && array.includes("L") && array.includes("N")) {
+      $("#javaScript").show();
+      $("#program").hide();
+
+    } else if (array.includes("B") && array.includes("D") && array.includes("G") && array.includes("J") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else if (array.includes("A") && array.includes("F") && array.includes("G") && array.includes("K") && array.includes("M")) {
+      $("#swift").show();
+      $("#program").hide();
+
+    } else
+      $("#all").show();
+      $("#program").hide();
+
+
+
+    // } else if (array.includes("1") && array.includes("4")) {
+    //   $("#chicken").show();
+    // } else if (array.includes("2") && array.includes ("3")) {
+    //   $("#cliff").show();
+    // } else if (array.includes("2") && array.includes("4"))    {
+    //   $("#beach").show();
+    // }
+
+
+  });
+});
 });

@@ -1,7 +1,8 @@
 #btn1 {
   border: 2px solid black;
   border-radius: 50px;
-  }
+  float: right;
+}
 
 h1 {
   text-align: center;
@@ -19,4 +20,20 @@ h1 {
   text-align: center;
   font-family: 'Ultra', serif;
 
+}
+
+#javaScript {
+  display: none;
+}
+
+#cPlus {
+  display: none;
+}
+
+#swift {
+  display: none;
+}
+
+#all {
+  display: none;
 }
