@@ -8,11 +8,11 @@
 ### _By Joshua Horgen_
 
 ## _Setup/Installation Requirements_
-### _Step 1: Visit [https://github.com/Jhorgen/Independent-project-2]_
+### _Step 1: Visit https://github.com/Jhorgen/jquery-survey_
 ### _Step 2: Click the green "Clone or Download" button and copy the link._
 ### _Step 3: Open Git Bash and use the command: "git clone _____URL______"
 
-### _Alternatively, visit [https://jhorgen.github.io/Independent-project-2] for a preview of my project._
+### _Alternatively, visit https://jhorgen.github.io/jquery-survey/ for a preview of my project._
 
 ## _Known Bugs_
 ### _Survey does not yet function. Updates coming soon!_
